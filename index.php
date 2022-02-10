@@ -1,3 +1,8 @@
+<?php
+// Penulisan variabel diluar tag html
+$nama = "Eka";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +15,7 @@
 
 <body>
     <h4>
-        Selamat Datang <?php echo "Nama Saya Eka Yuniar"; ?>
+        Selamat Datang <?php echo $nama; ?>
     </h4>
 </body>
 
